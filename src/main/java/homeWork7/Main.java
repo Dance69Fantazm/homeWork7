@@ -3,7 +3,7 @@ package homeWork7;
 public class Main {
 
     public static void main(String[] args) {
-        Plate plate = new Plate(75);
+        Plate plate = new Plate(25);
         Cat[] cats = {
                 new Cat("Амели"),
                 new Cat("Каспер"),
@@ -15,22 +15,18 @@ public class Main {
                 new Cat("Сисиль"),
         };
 
-        if (){
             for (Cat cat:cats) {
                 cat.eat(plate);
             }
             for (Cat cat:cats) {
                 System.out.println(cat);
             }
-        }else if (){
             for (Cat cat:cats) {
                 cat.addEat(plate);
             }
             for (Cat cat:cats) {
                 System.out.println(cat);
             }
-        }
-
 
     }
 }
